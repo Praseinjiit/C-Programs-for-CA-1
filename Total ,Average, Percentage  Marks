@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main()
+{
+    float physics, chemistry, maths, bio;
+    float total, average, percentage;
+
+    printf("Enter marks obtained in Physics: ");
+    scanf("%f", &physics);
+
+    printf("Enter marks obtained in Chemistry: ");
+    scanf("%f", &chemistry);
+
+    printf("Enter marks obtained in Maths: ");
+    scanf("%f", &maths);
+
+    printf("Enter marks obtained in Biology: ");
+    scanf("%f", &bio);
+
+    total = physics + chemistry + maths + bio;
+     printf("Total Marks = %f\n", total);
+     
+    average = total / 4;
+     printf("Average Marks = %f\n", average);
+     
+    percentage = (total / 400.0) * 100;
+     printf("Percentage = %f\n", percentage);
+     
+     return 0;
+}
