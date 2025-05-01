@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("Enter the number:");
+    scanf("%d", &num);
+    if(num>3)
+    {
+        printf("The number is Greater than 3\n");
+    }
+    else
+    {
+        printf("The number is Smaller than 3\n");
+    }
+    printf("End of program");
+    return 0;
+}
