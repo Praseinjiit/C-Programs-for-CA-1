@@ -12,7 +12,7 @@ int main()
     printf("The house-rent of the Ramesh is:%f \n",h);
     
     g_sal=h+d+b_sal;
-    printf("The grass salary of ramesh is :%f \n",g_sal);
+    printf("The gross salary of ramesh is :%f \n",g_sal);
     
     return 0;
     
