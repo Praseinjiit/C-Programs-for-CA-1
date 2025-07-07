@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    float b_sal,g_sal,h,d;
+    printf("Enter the basic salaey of Ramesh:");
+    scanf("%f", &b_sal);
+    
+    d=0.4*b_sal;
+    printf("The dearness arlam of the ramesh is : %f \n",d);
+    
+    h=0.2*b_sal;
+    printf("The house-rent of the Ramesh is:%f \n",h);
+    
+    g_sal=h+d+b_sal;
+    printf("The grass salary of ramesh is :%f \n",g_sal);
+    
+    return 0;
+    
+}
